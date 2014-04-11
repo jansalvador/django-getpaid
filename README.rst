@@ -88,7 +88,7 @@ Let's take an example from test project::
 
 First of all, class name is not important at all. You register a model with ``register_to_payment`` method.
 
-You can add some `kwargs` that are basically used for ``ForeignKey`` kwargs. In this example whe allow creating multiple payments for one order, and naming One-To-Many relation.
+You can add some `kwargs` that are basically used for ``ForeignKey`` kwargs. In this example we allow creating multiple payments for one order, and naming One-To-Many relation.
 
 There are two important things on that model. In fact two methods are required to be present in order class.
 The first one is ``__unicode__`` method as this will be used in few places as a fallback for generating
